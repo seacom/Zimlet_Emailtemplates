@@ -1,0 +1,107 @@
+
+
+table.emailTemplates_table input[type="text"]{
+	border-color:#3A73AB;
+	border-width:1;
+	border-style:solid;
+	width:200px;
+	height:20px;
+	padding:2px 4px;
+}
+
+.emailTemplates_yellow {
+    background: #FFFFCC;
+    border-bottom: 1px solid #6E6E6E;
+    border-right: 1px solid #6E6E6E;
+	font-size:12px;
+	font-weight:bold;
+	font-style:arial;
+	padding:4px;
+}
+
+.emailTemplates_yellowNormal {
+    background: #FFFFCC;
+    border-bottom: 1px solid #6E6E6E;
+    border-right: 1px solid #6E6E6E;
+	font-size:14px;
+	padding:4px;
+	font-family:"times New Roman";
+}
+
+
+.scrollit {
+    overflow:scroll;
+    height:300px;
+}
+
+
+table.emailTemplate-table tr {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #EFEFEF;
+}
+table.emailTemplate-table tr:nth-child(2n+1) {
+    background: none repeat scroll 0 0 #DDDDDD;
+}
+table.emailTemplate-table tr th {
+    border-left: 1px solid #CCCCCC !important;
+    text-align: left;
+}
+table.emailTemplate-table tr > *:first-child {
+    padding-left: 10px;
+}
+table.emailTemplate-table tr > *:last-child {
+    padding-right: 10px !important;
+}
+table.emailTemplate-table tr td, table.emailTemplate-table tr th {
+	border-top: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	text-align: center;
+    margin: 0;
+    padding: 5px;
+    vertical-align: top;
+}
+table.emailTemplate-table tr:nth-child(2n+1) td, table.emailTemplate-table tr:nth-child(2n+1) th {
+}
+table.emailTemplate-table h3 {
+    color: #222222;
+    font-size: 16px;
+    margin: 3px 0;
+    text-shadow: 1px -1px 0 #DDDDDD;
+}
+table.emailTemplate-table tr td.value {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 10px 5px;
+}
+table.emailTemplate-table .small {
+    text-shadow: none;
+}
+table.emailTemplate-table img:hover { 
+	cursor: pointer;
+} 
+table.emailTemplate-table th:hover { 
+	cursor: help;
+} 
+table.emailTemplate-table tr:hover { 
+	cursor: pointer;
+	color: blue;
+} 
+
+
+.Imgseacom-panelIcon {
+  background: url("resources/seacomSmall.png") no-repeat 0 0;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+#zpm_logo {
+	background: url("resources/seacomBig.png") no-repeat 0 0;
+	margin: auto;
+	height: 100px;
+	width: 100px;
+	overflow: hidden;
+}

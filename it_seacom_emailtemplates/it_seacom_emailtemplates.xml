@@ -1,0 +1,18 @@
+<zimlet name="it_seacom_emailtemplates" version="1.0" description="Allows users to insert Email Templates" target="main compose-window">
+	<include>it_seacom_emailtemplates.js</include>
+	<includeCSS>it_seacom_emailtemplates.css</includeCSS>
+	<handlerObject>it_seacom_emailtemplatesHandlerObject</handlerObject>
+	<userProperties>
+		<property type="string" name="etemplates_sourcefolderPath" value=""/>	
+		<property type="string" name="etemplates_sourcefolderId" value=""/>	
+	</userProperties>
+	<zimletPanelItem label="${msg.EmailTemplatesZimlet_name}" icon="NewMessage">
+		<toolTipText>${msg.EmailTemplatesZimlet_tooltip}</toolTipText>
+		<dragSource type="ZmMailMsg"/>
+		<contextMenu>
+			<menuItem label="${msg.EmailTemplatesZimlet_createModelEmail}" id="NEW_TEMPLATE" icon="NewMessage" />
+			<menuItem label="${msg.EmailTemplatesZimlet_preferences}" id="SETTINGS" icon="Settings" />
+			<menuItem label="${msg.about}" id="ABOUT_SEACOM" icon="seacom-panelIcon"/>
+		</contextMenu>
+	</zimletPanelItem>
+</zimlet>

@@ -1,0 +1,8 @@
+<zimletConfig name="it_seacom_emailtemplates" version="1.0">
+  <global>
+    <property name="default_contact_tag_it">firstName:${CN_nome},lastName:${CN_cognome},email:${CN_email},company:${CN_azienda},workPhone:${CN_cellLavoro},mobilePhone:${CN_cellPersonale},homeStreet:${CN_indirizzoCasa},homeCity:${CN_paeseCasa},homeState:${CN_provinciaCasa},homePostalCode:${CN_capCasa},homeCountry:${CN_nazioneCasa}</property>
+	<property name="default_contact_tag_it_IT">firstName:${CN_nome},lastName:${CN_cognome},email:${CN_email},company:${CN_azienda},workPhone:${CN_cellLavoro},mobilePhone:${CN_cellPersonale},homeStreet:${CN_indirizzoCasa},homeCity:${CN_paeseCasa},homeState:${CN_provinciaCasa},homePostalCode:${CN_capCasa},homeCountry:${CN_nazioneCasa}</property>
+	<property name="default_contact_tag_en_US">firstName:${CN_firstName},lastName:${CN_lastName},email:${CN_email},company:${CN_company},workPhone:${CN_workPhone},mobilePhone:${CN_mobilePhone},homeStreet:${CN_homeStreet},homeCity:${CN_homeCity},homeState:${CN_homeState},homePostalCode:${CN_homePostalCode},homeCountry:${CN_homeCountry}</property>
+  	<property name="default_contact_tag_en_GB">firstName:${CN_firstName},lastName:${CN_lastName},email:${CN_email},company:${CN_company},workPhone:${CN_workPhone},mobilePhone:${CN_mobilePhone},homeStreet:${CN_homeStreet},homeCity:${CN_homeCity},homeState:${CN_homeState},homePostalCode:${CN_homePostalCode},homeCountry:${CN_homeCountry}</property>
+  </global>
+</zimletConfig>
